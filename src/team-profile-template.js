@@ -23,7 +23,7 @@ module.exports = ({manager, engineer, intern}) =>  `
               <div class="card" style="width: 22rem;">
                   <div class="card-body">
                     <h5 class="card-title">${manager.getName()}</h5>
-                    <p class="card-text">${manager.getRole()}}</p>
+                    <p class="card-text">${manager.getRole()}</p>
                   </div>
                   <ul class="list-group list-group-flush">
                     <li class="list-group-item">ID: ${manager.getId()}</li>
