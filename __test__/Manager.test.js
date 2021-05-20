@@ -4,6 +4,8 @@ test('Creates a manager object', () => {
     const officeNumber = 4;
     const manager1 = new Manager(officeNumber);
 
+    expect(typeof manager1).toBe("object");
+
     expect(manager1.officeNumber).toBe(4);
     expect(manager1.officeNumber).toEqual(expect.any(Number));
 
